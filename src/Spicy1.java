@@ -1,15 +1,16 @@
 import java.util.Arrays;
 
 /***
- * Goal: reverse an array of integer values
- * Example original array: [3, 10, 8, 15]
- * Example reverse array: [15, 8, 10, 3]
+ * Goal: Determine and print the median of array "a"
+ * Hint 1: Google "java Arrays.sort()"
+ * Hint 2: Google "java modulus"
  * Rating: SPICY
  */
 
 public class Spicy1 {
 
-    public int[] a = {12, 18, 54, 9, 72, 31, 15};
+    public int[] a;
+    public double median;
 
     public static void main(String[] args) {
         Spicy1 practice = new Spicy1();
@@ -17,13 +18,20 @@ public class Spicy1 {
 
     public Spicy1() {
 
-        System.out.println("Original array : " + Arrays.toString(a));
+        int sizeOfA = (int)(Math.random()*50+10); // a is a random size between 10 and 59
+        a = new int[sizeOfA];
+
+        for (int i = 0; i < a.length; i++) {
+            a[i] = (int)(Math.random()*100);
+        }
+
+        System.out.println("Original array: " + Arrays.toString(a));
 
         /***
          * Your code goes here
          */
 
-        System.out.println("Reverse array : " + Arrays.toString(a));
+        System.out.println("The median is " + median);
 
     }
 

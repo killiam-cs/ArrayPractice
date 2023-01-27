@@ -6,15 +6,15 @@
  * Rating: MILD
  */
 
-public class Mild1 {
+public class Mild1a {
 
     public int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
     public static void main(String[] args) {
-        Mild1 practice = new Mild1();
+        Mild1a practice = new Mild1a();
     }
 
-    public Mild1() {
+    public Mild1a() {
 
         int sum = 0;
 

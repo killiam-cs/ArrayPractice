@@ -18,13 +18,15 @@ public class Medium2 {
             a[i] = (int)(Math.random()*50);
         }
         System.out.println("The original array is: ");
-        printArray(a);
+        printArray(a); // does the same thing as System.out.println(Arrays.toString(a))
 
-        int r = 3;
+        int r = (int)(Math.random()*10);
+        System.out.println("\nThe index to remove is: " + r);
+        System.out.println("a[" + r + "] is: " + a[r]);
 
         removeValue(a, r);
 
-        System.out.println("The array is now: ");
+        System.out.println("\nThe updated array is: ");
         printArray(a);
 
     }

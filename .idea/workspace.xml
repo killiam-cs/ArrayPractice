@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86215330-68ed-48f5-987e-a885ec6461e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArrayPractice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Medium2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mild1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mild2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mild3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Spicy1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Spicy2.java" afterDir="false" />
+    <list default="true" id="86215330-68ed-48f5-987e-a885ec6461e1" name="Changes" comment="Some practice problems with arrays, range of difficulties">
+      <change afterPath="$PROJECT_DIR$/src/GhostPepper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Medium3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mild1b.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mild4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mild5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Spicy3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Medium1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medium1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Medium2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Medium2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mild1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mild1a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mild2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mild2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mild3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mild3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Spicy1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spicy1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Spicy2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spicy2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +48,30 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Spicy1">
-    <configuration name="Mild1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mild1" />
+  <component name="RunManager" selected="Application.Mild4">
+    <configuration name="Medium2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Medium2" />
+      <module name="ArrayPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mild1b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mild1b" />
+      <module name="ArrayPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mild3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mild3" />
+      <module name="ArrayPractice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mild4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Mild4" />
       <module name="ArrayPractice" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,8 +86,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mild4" />
+        <item itemvalue="Application.Medium2" />
+        <item itemvalue="Application.Mild3" />
+        <item itemvalue="Application.Mild1b" />
         <item itemvalue="Application.Spicy1" />
-        <item itemvalue="Application.Mild1" />
       </list>
     </recent_temporary>
   </component>
@@ -77,6 +103,14 @@
       <option name="presentableId" value="Default" />
       <updated>1674606525241</updated>
     </task>
+    <task id="LOCAL-00001" summary="Some practice problems with arrays, range of difficulties">
+      <created>1674610325097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674610325097</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,5 +123,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Some practice problems with arrays, range of difficulties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some practice problems with arrays, range of difficulties" />
   </component>
 </project>
